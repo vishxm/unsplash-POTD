@@ -4,11 +4,14 @@ One can also update the system theme with this and with [wpgtk](https://github.c
 
 ## usage
 
-### only updating wallpaper 
-./autowall.sh
+### -> clone this repo at '~/us-scraper/'
+git clone [https://github.com/vishxm/unsplash-POTD](https://github.com/vishxm/unsplash-POTD) ~/us-scraper/
 
-### updating system theme and wallpaper
-./autotheme.sh
+### -> only updating wallpaper 
+~/us-scraper/autowall.sh
+
+### -> updating system theme and wallpaper
+~/us-scraper/autotheme.sh
 
 ## requirements 
 1. python
