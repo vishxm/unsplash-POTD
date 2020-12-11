@@ -1,4 +1,5 @@
 # libraries
+import os
 import requests
 from bs4 import BeautifulSoup
 
@@ -15,5 +16,5 @@ photo_url = base_url + photo_id + '/1920x1080'
 # saving the photo 
 image = requests.get(photo_url)
 
-with open('image.png', 'wb') as f:
+with open(os.path.expanduser('~/us-scraper/image.png'), 'wb') as f:
     f.write(image.content)
