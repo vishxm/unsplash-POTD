@@ -10,7 +10,7 @@ soup = BeautifulSoup(page.text, 'html.parser')
 photo_id = soup.find_all('a', '_2Mc8_ _3ZLHW _1HV49 _2WvKc')[0]['href'][8:]
 
 # url for getting the photo from unsplash API
-base_url = "http://source.unsplash.com/"
+base_url = "https://source.unsplash.com/"
 photo_url = base_url + photo_id + '/1920x1080'
 
 # saving the photo 
