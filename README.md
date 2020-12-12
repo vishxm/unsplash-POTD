@@ -14,8 +14,8 @@ git clone [https://github.com/vishxm/unsplash-POTD](https://github.com/vishxm/un
 ~/us-scraper/autotheme.sh
 
 ## requirements 
-1. python
+1. python3
 2. feh 
 3. requests
 4. beautifulsoup
-5. wpgtk
+5. wpgtk (needed to set theme)
