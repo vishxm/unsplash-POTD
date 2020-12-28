@@ -1,5 +1,5 @@
 #!/bin/bash
-python base.py
+python ~/us-scraper/base.py
 rm ~/.config/wpg/schemes/*image*.json
 wpg -a ~/us-scraper/image.png
 wpg -s ~/us-scraper/image.png
